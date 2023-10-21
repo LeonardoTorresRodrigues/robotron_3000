@@ -15,7 +15,7 @@ export default function Home() {
 			<main className="flex min-h-screen flex-col items-center justify-between p-24 text-center">
 				<img
 					className='w-96'
-					src={`/img/Robotron 2000 - ${image || 'Padrao'}.png`}
+					src={`/img/Robotron 3000 - ${image || 'Padrao'}.png`}
 					alt="Robotron"
 				/>
 				<h2 className='m-8 text-2xl'>Trocar cor do seu Robotron</h2>

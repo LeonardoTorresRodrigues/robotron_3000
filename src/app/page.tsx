@@ -41,15 +41,15 @@ export default function Home() {
 						className="fixed top-0 left-0 w-full h-full bg-gray-800 bg-opacity-50 z-50 flex items-center justify-center"
 						onClick={() => setIsModalOpen(false)}
 					>
-						<div className="bg-white p-8 rounded shadow-lg" onClick={(e) => e.stopPropagation()}>
+						<div className="bg-gray-600 p-8 rounded shadow-lg" onClick={(e) => e.stopPropagation()}>
 							<h2 className="text-4xl font-bold mb-4 text-blue-400">Escolha uma cor</h2>
 							<div className="grid grid-cols-3 gap-4">
-								<ChangeRobotButton color="Azul" onClick={() => handleImage('Azul')} />
-								<ChangeRobotButton color="Amarelo" onClick={() => handleImage('Amarelo')} />
-								<ChangeRobotButton color="Branco" onClick={() => handleImage('Branco')} />
-								<ChangeRobotButton color="Preto" onClick={() => handleImage('Preto')} />
-								<ChangeRobotButton color="Rosa" onClick={() => handleImage('Rosa')} />
-								<ChangeRobotButton color="Vermelho" onClick={() => handleImage('Vermelho')} />
+								<ChangeRobotButton onClick={() => handleImage('Azul')} className={'bg-blue-400'} />
+								<ChangeRobotButton onClick={() => handleImage('Amarelo')} className={'bg-yellow-400'} />
+								<ChangeRobotButton onClick={() => handleImage('Branco')} className={'bg-white'} />
+								<ChangeRobotButton onClick={() => handleImage('Preto')} className={'bg-black'} />
+								<ChangeRobotButton onClick={() => handleImage('Rosa')} className={'bg-pink-400'} />
+								<ChangeRobotButton onClick={() => handleImage('Vermelho')} className={'bg-red-400'} />
 							</div>
 						</div>
 					</div>

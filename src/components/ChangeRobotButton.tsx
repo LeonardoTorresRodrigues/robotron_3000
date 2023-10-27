@@ -1,18 +1,17 @@
 import React from 'react';
 
 interface ColorButtonProps {
-	color: string;
+	className: string;
 	onClick: () => void;
 }
 
-export default function ChangeRobotButton({ color, onClick }: ColorButtonProps) {
+export default function ChangeRobotButton({ className, onClick }: ColorButtonProps) {
 	return (
 		<>
 			<button
-				className='bg-blue-400 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded m-5 w-21'
+				className={`text-white font-bold py-2 px-4 rounded m-5 w-21 ${className}`}
 				onClick={onClick}
 			>
-				{color}
 			</button>
 		</>
 	);

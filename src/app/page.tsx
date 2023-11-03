@@ -18,7 +18,7 @@ export default function Home() {
 				<div className='relative'>
 					<button
 						onClick={() => setIsModalOpen(true)}
-						className='hidden md:block fixed left-0 top-1/2 transform -translate-y-1/2 px-4 py-2 bg-blue-400 text-white font-bold rounded'
+						className='hidden md:block fixed left-10 top-1/2 transform -translate-y-1/2 px-4 py-2 bg-blue-400 text-white font-bold rounded'
 					>
 						Trocar cor do seu Robotron
 					</button>

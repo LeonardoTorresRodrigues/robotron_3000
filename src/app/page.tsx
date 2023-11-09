@@ -23,7 +23,7 @@ export default function Home() {
 						Trocar cor do seu Robotron
 					</button>
 					<img
-						className='w-96 md:mx-auto'
+						className='w-full md:w-3/6 mx-auto max-w-full h-auto'
 						src={`/img/Robotron 3000 - ${image || 'Azul'}.png`}
 						alt="Robotron"
 					/>

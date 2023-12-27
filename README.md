@@ -5,7 +5,7 @@ Monte seu novo robô de combate!
 | :placard: Vitrine.Dev |     |
 | -------------  | --- |
 | :sparkles: Nome        | **Robotron 3000**
-| :label: Tecnologias | React, TypeScript, TailwindCSS
+| :label: Tecnologias | React, TypeScript, Next, TailwindCSS
 | :rocket: URL         | Em breve 🏗️
 | :fire: Desafio     | https://alura.com.br
 
